@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Luis Manuel González Baizán" />
+    <meta name ="description" content ="características del framework Laravel" />
+    <meta name ="keywords" content ="Nombre, Edad, Email, Laravel, framework" />
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>Laravel - Formulario</title>
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+
+    <!-- 
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" />
+    -->
+
+</head>
+
+<body>
+    <!-- Cabecera del documento -->
+    <header>
+        <h1>Laravel</h1>
+        <P>Página web oficial: <a href="https://laravel.com/">Laravel</a></P>
+    </header>
+
+    <!-- Barra de navegación (siempre igual) -->
+    <nav>
+        <a title="Inicio" accesskey="I" tabindex="1" href="index.html">Inicio</a>
+        <a title="Características" accesskey="C" tabindex="2" href="caracteristicas.html">Características</a>
+        <a title="Aprende" accesskey="A" tabindex="3" href="aprender.html">Aprende</a>
+        <a title="Formulario" accesskey="M" tabindex="4" href="formulario.html">Formulario</a>
+    </nav>
+
+    <!-- Sección donde se elabora todo el formulario -->
+    <section>
+        <h2>Rellena el siguiente formulario</h2>
+    <form name="datos">
+        <!-- Se introduce nombre de usuario -->
+        <p><label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" /></p>
+        
+        <!--Se introduce la edad del usuario -->
+        <p><label for="edad">Edad:</label>
+            <input id="edad" type="number" /></p>
+
+        <!--Se pide email al usuario -->
+        <p><label for="correo">Email:</label>
+            <input id="correo" type="email" /></p>
+        
+        <!--Radiobotones  -->
+        <fieldset>
+            <legend>¿Has utilizado alguna vez Laravel?</legend>
+            <p><label for="conSiNo1">Sí</label>
+                <input id="conSiNo1" name="radioButton1" type="radio" /></p>
+            <p><label for="conSiNo2">No</label>
+                <input id="conSiNo2" name="radioButton1" type="radio" /></p>
+        </fieldset>
+
+        <!--CheckBox -->
+        <fieldset>
+            <legend>Seleccione aquello que considere más importante para un framework</legend>
+            <p>
+                <label for="che1">Sencillo de aprender.</label>
+                <input id="che1" name="checkBox1" type="checkbox" />
+            </p>
+            <p>
+                <label for="che2">Simplifique proceso de desarrollo.</label>
+                <input id="che2" name="checkBox1" type="checkbox" />
+            </p>
+            <p>
+                <label for="che3">Seguro.</label>
+                <input id="che3" name="checkBox1" type="checkbox" />
+            </p>
+            <p>
+                <label for="che4">Código reutilizable.</label>
+                <input id="che4" name="checkBox1" type="checkbox" />
+            </p>
+        </fieldset>
+
+        <!--TextArea donde el usuario escribe una opinión sobre lo que le parece el Framework -->
+        <label for="op" > Escribe tu opinión:</label>
+        <textarea id="op" name="opinión" rows="7" cols="80" placeholder="En mi opinión..."></textarea>
+
+        <!--Boton de enviar formulario -->
+        <input type="submit" value="Enviar" >
+    </form>
+    </section>
+
+    <!-- Dirección de contacto con el creador de la página web -->
+    <address>
+        <p>En caso de cualquier incidencia envíe un email al siguiente correo: <a href="mailto:uo269502@uniovi.es">uo269502@uniovi.es</a></p>
+    </address>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Copyright ©2022 UO269502</p>
+    </footer>
+    
+</body>
+</html>

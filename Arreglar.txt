@@ -1,0 +1,9 @@
+Formulario: QUITAR los bry meter las etiquetas en <p> - TERMINADO
+
+Modificar los html que tengan tantos section como indico yo en el mockup. Si en el mockup pongo que hay dos section que en todos los html haya 2 ni uno mas ni uno menos. - TERMINADO
+
+Mirar accesibilidad y adaptabilidad antes de meterse con css, documentar las lineas en html donde invoco los css y hacer las pruebas, para tener una version estable.
+
+Puede que me de problemas en la tabla al introducir un enlace. Problema de adaptabilidad y accesibilidad.
+
+El tamaño del video no se hace a traves de los atributos height, si no que tenemos que modificar el tamaño del video por ejemplo en OBS.

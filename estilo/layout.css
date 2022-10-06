@@ -1,0 +1,20 @@
+/********************************
+Luis Manuel González Baizán - UO269502
+Layout de la página web.
+********************************/
+
+/*Especificidad: 001*/
+body{
+	display: grid;
+	gap: 0.2em;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+/*Especificidad: 001*/
+header,
+nav,
+section,
+address,
+footer{
+	grid-column: 1/5;
+}

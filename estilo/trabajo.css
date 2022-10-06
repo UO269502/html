@@ -1,0 +1,63 @@
+/********************************
+Luis Manuel González Baizán - UO269502
+Descripción de los estilos
+********************************/
+
+/*Especificidad: 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    font-size:15px;
+	font-weight:300;
+    color: #000000;
+    background-color: rgb(250, 238, 210);
+    margin: 25px 50px;
+    }
+
+/* HEADER */
+/*Especificidad: 001*/
+header {
+    border-radius:20px;
+    color: rgb(0, 0, 0);    
+    background-color:#eac5f8;
+    text-transform: uppercase;
+    padding: 30px;
+    text-align: center;     
+    }
+
+    /*Especificidad: 001*/    
+nav{
+    color: rgb(0, 0, 0);
+    background: #7782e4;
+    padding: 10px;
+    text-align: center;
+    }
+
+/*Especificidad: 001*/    
+form{
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    color:rgb(0, 0, 0);
+	background-color:#ccc;
+}
+
+/*Especificidad: 001*/
+address{
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+/*Especificidad: 001*/
+footer{
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+/*Especificidad: 002*/
+section video,
+section img,
+section audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Luis Manuel González Baizán" />
+    <meta name ="description" content ="características del framework Laravel" />
+    <meta name ="keywords" content ="características, MVC, sistema" />
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>Laravel - Características</title>
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+
+    <!-- 
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" />
+    -->
+
+</head>
+
+<body>
+    <!-- Cabecera del documento -->
+    <header>
+        <h1>Laravel</h1>
+        <P>Página web oficial: <a href="https://laravel.com/">Laravel</a></P>
+    </header>
+
+    <!-- Barra de navegación (siempre igual) -->
+    <nav>
+        <a title="Inicio" accesskey="I" tabindex="1" href="index.html">Inicio</a>
+        <a title="Características" accesskey="C" tabindex="2" href="caracteristicas.html">Características</a>
+        <a title="Aprende" accesskey="A" tabindex="3" href="aprender.html">Aprende</a>
+        <a title="Formulario" accesskey="M" tabindex="4" href="formulario.html">Formulario</a>
+    </nav>
+
+    <!-- Sección donde está el párrafo y la lista con las características -->
+    <section>
+        <h2>Estilo arquitectónico</h2>
+        <p>
+            El framewrok Laravel trabaja con una arquitectura de carpetas avanzada, de modo que promueve la separación de los archivos 
+            un orden correcto y específico, que guiará a todos los miembros del equipo de trabajo y se convertirá en un estándar en 
+            diferentes proyectos. Por supuesto, también tiene una arquitectura de clases adecuada que promueve la separación del código 
+            por responsabilidades. Su estilo arquitectónico es MVC.
+        </p>
+        <p>
+            Modelo Vista Controlador (MVC) es un estilo de arquitectura de software que separa los datos de una aplicación, la interfaz 
+            de usuario, y la lógica de control en tres componentes distintos.
+        </p>
+        <p>
+            Se trata de un modelo muy maduro y que ha demostrado su validez a lo largo de los años en todo tipo de aplicaciones, 
+            y sobre multitud de lenguajes y plataformas de desarrollo.
+        </p>
+        <ul>
+            <li>
+                El Modelo que contiene una representación de los datos que maneja el sistema, su lógica de negocio, y 
+                sus mecanismos de persistencia.
+            </li>
+            <li>
+                La Vista, o interfaz de usuario, que compone la información que se envía al cliente y los mecanismos interacción con éste.
+            </li>
+            <li>
+                El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos 
+                y las transformaciones para adaptar los datos a las necesidades de cada uno.
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Características</h2>
+        <p>
+            Contiene además un amplio conjunto de características, que sirven para realizar la mayoría de las aplicaciones web. Entre 
+            ellas podemos encontrar:
+        </p>
+        <ul>
+            <li>Un sistemas de rutas, mediante las cuales es fácil crear y mantener todo tipo de URLs amistosas a:
+                <ul>
+                    <li>Usuarios y buscadores.</li>
+                    <li>Rutas de API.</li>
+                </ul>
+            </li>
+            <li>Un sistema de abstracción de base de datos, con un ORM potente pero sencillo de manejar.</li>
+            <li>Un sistema para creación de colas de trabajo, de modo que es posible enviar tareas para ejecución en background y aumentar el 
+                rendimiento de las aplicaciones</li>
+            <li>Varias configuraciones para envío de email.</li>
+            <li>Un sistema de notificaciones a usuarios mediante:
+                <ul>
+                    <li>Email.</li>
+                    <li>Base de datos.</li>
+                    <li>Otros canales.</li>
+                </ul>
+            </li>
+            <li>Gestión de sesiones.</li>
+            <li>Sistema de autenticación, con todo lo necesario como:
+                <ul>
+                    <li>Recordatorios de clave.</li>
+                    <li>Confirmación de cuentas.</li>
+                    <li>Recordar un usuario logueado.</li>
+                </ul>
+            </li>
+            <li>Posibilidad de acceder a datos en realtime y recibir notificaciones cuando ésto se alteran en la base de datos.</li>
+        </ul>
+        <picture>
+            <source media="(max-width:799px)" srcset="multimedia/caracteristicasLaravel-450w.jpeg">
+            <source media="(min-width:800px)" srcset="multimedia/caracteristicasLaravel-700w.jpeg">
+            <img src="multimedia/caracteristicasLaravel-700w.jpeg" alt="Características de Laravel."> 
+        </picture>
+    </section>
+
+    <!-- Dirección de contacto con el creador de la página web -->
+    <address>
+        <p>En caso de cualquier incidencia envíe un email al siguiente correo: <a href="mailto:uo269502@uniovi.es">uo269502@uniovi.es</a></p>
+    </address>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Copyright ©2022 UO269502</p>
+    </footer>
+    
+</body>
+</html>
