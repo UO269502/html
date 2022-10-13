@@ -55,7 +55,7 @@ nav a:hover{
 
 /*Especificidad: 001*/    
 nav{
-    color: rgb(0, 0, 0);
+    color: white;
     background: rgb(0, 0, 0);
     /*padding: 10px;*/
     padding: 0.625em;
@@ -107,7 +107,7 @@ ul{
 /*Especificidad: 002*/
 ul li{
     color: rgb(0, 0, 0);
-    /*background-color: rgb(250, 238, 210);*/
+    background-color: #F9F9DF;
 }
 
 /*Especificidad: 003*/
@@ -118,7 +118,7 @@ ul li ul{
 /*Especificidad: 004*/
 ul li ul li{
     color: rgb(49, 48, 43);
-    /*background-color: rgb(250, 238, 210);*/
+    background-color: #F9F9DF;
 }
 
 /*Especificidad: 001*/
@@ -161,16 +161,16 @@ footer{
 }
 
 /*Especificidad: 001*/
-img{
+/*img{
     width: 100%;
     height: auto;
-}
+}*/
 
 /*Especificidad: 001*/
-video{
-    max-width: 100%;
+/*video{
+    max-width: 25%;
     height: auto;
-}
+}*/
 
 /*Especificidad: 002*/
 section video,
