@@ -15,6 +15,9 @@ header,
 nav,
 section,
 address,
-footer{
+footer,
+section img,
+section video,
+section audio{
 	grid-column: 1/5;
 }
